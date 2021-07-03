@@ -1,7 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="lk.navy.sln_e_pay">
+
    <application
-        android:label="sln_e_pay"
+       android:usesCleartextTraffic="true"
+        android:label="SLN E-Pay"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
